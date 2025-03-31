@@ -299,7 +299,8 @@
     "zhenhappy"
   ],
   "/academia/topic/:interest": [
-    "K33k0"
+    "K33k0",
+    "cscnk52"
   ],
   "/accessbriefing/:category{.+}?": [
     "nczitzk"
@@ -1299,6 +1300,9 @@
   "/cdu/jwgg": [
     "uuwor"
   ],
+  "/cdu/tzggcdunews": [
+    "uuwor"
+  ],
   "/cdzjryb/zw/projectList": [
     "TonyRL"
   ],
@@ -1434,6 +1438,9 @@
   ],
   "/chuanliu/nice": [
     "nczitzk"
+  ],
+  "/chuapp/:category?": [
+    "dousha"
   ],
   "/chub/characters": [
     "flameleaf"
@@ -2631,6 +2638,9 @@
   "/gamegene/news": [
     "lone1y-51"
   ],
+  "/gamekee/news": [
+    "ueiu"
+  ],
   "/gamer/gnn/:category?": [
     "Arracc",
     "ladeng07",
@@ -3559,6 +3569,9 @@
   "/hpoi/items/work/:id/:order?": [
     "DIYgod"
   ],
+  "/hrbeu/cec/:id": [
+    "tsinglinrain"
+  ],
   "/hrbeu/gx/card/:column/:id?": [],
   "/hrbeu/gx/list/:column/:id?": [],
   "/hrbeu/job/bigemploy": [
@@ -3896,7 +3909,8 @@
   ],
   "/iplaysoft/": [
     "williamgateszhao",
-    "cscnk52"
+    "cscnk52",
+    "LokHsu"
   ],
   "/iplaysoft/tag/:slug": [
     "cscnk52"
@@ -4692,6 +4706,9 @@
   "/meituan/tech": [
     "ktKongTong",
     "cscnk52"
+  ],
+  "/mercari/:sort/:order/:status/:keyword": [
+    "yana9i"
   ],
   "/metacritic/:type?/:sort?/:filter?": [],
   "/meteor/boards": [
@@ -6077,6 +6094,9 @@
   "/rarehistoricalphotos/": [
     "TonyRL"
   ],
+  "/raspberrypi/magazine": [
+    "nczitzk"
+  ],
   "/rattibha/user/:user": [
     "yshalsager"
   ],
@@ -6233,6 +6253,9 @@
   ],
   "/sciencedirect/call-for-paper/:subject": [
     "etShaw-zh"
+  ],
+  "/sciencedirect/journal/:id/current": [
+    "TonyRL"
   ],
   "/sciencedirect/journal/:id": [
     "nczitzk"
@@ -6809,6 +6832,9 @@
   "/stcn/article/list/kx": [
     "nczitzk"
   ],
+  "/stcn/article/rank/:id?": [
+    "nczitzk"
+  ],
   "/stdaily/digitalpaper": [
     "lyqluis"
   ],
@@ -7331,6 +7357,9 @@
   "/tradingview/pine/:version?": [],
   "/transcriptforest/:channel?": [
     "nczitzk"
+  ],
+  "/transformer-circuits/": [
+    "shinmohuang"
   ],
   "/trending/:keywords/:numberOfDays?": [
     "Jkker"
