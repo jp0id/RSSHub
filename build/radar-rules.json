@@ -12286,6 +12286,27 @@
       }
     ]
   },
+  "dev.to": {
+    "_name": "DEV Community",
+    ".": [
+      {
+        "title": "Trending Guides",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/"
+        ],
+        "target": "/dev.to/guides"
+      },
+      {
+        "title": "Top Posts",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/top/:period"
+        ],
+        "target": "/dev.to/top/:period"
+      }
+    ]
+  },
   "devolverdigital.com": {
     "_name": "DevolverDigital",
     ".": [
@@ -14375,6 +14396,19 @@
           "/review"
         ],
         "target": "/gamersky/review"
+      }
+    ]
+  },
+  "gaoyu.me": {
+    "_name": "Yu Gao",
+    "www": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/blog"
+        ],
+        "target": "/gaoyu/blog"
       }
     ]
   },
@@ -18423,12 +18457,77 @@
     "_name": "哈尔滨工业大学",
     "hitgs": [
       {
-        "title": "研究生院通知公告",
+        "title": "研究生院",
         "docs": "https://docs.rsshub.app/routes/university",
         "source": [
-          "/*"
+          "/",
+          "/:id/list.htm"
         ],
-        "target": "/hit/hitgs"
+        "target": "/hitparams=>{const id=params.id;return`/hit/hitgs${id?`/${id}`:\"\"}`}"
+      },
+      {
+        "title": "通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/tzgg/list.htm"
+        ],
+        "target": "/hit/hitgs/tzgg"
+      },
+      {
+        "title": "综合新闻",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/zhxw/list.htm"
+        ],
+        "target": "/hit/hitgs/zhxw"
+      },
+      {
+        "title": "高水平课程与学术交流",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/gspkcyxsjl/list.htm"
+        ],
+        "target": "/hit/hitgs/gspkcyxsjl"
+      },
+      {
+        "title": "国家政策",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/gjzc/list.htm"
+        ],
+        "target": "/hit/hitgs/gjzc"
+      },
+      {
+        "title": "规章制度",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/17546/list.htm"
+        ],
+        "target": "/hit/hitgs/17546"
+      },
+      {
+        "title": "办事流程",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/17547/list.htm"
+        ],
+        "target": "/hit/hitgs/17547"
+      },
+      {
+        "title": "常见问题",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/17548/list.htm"
+        ],
+        "target": "/hit/hitgs/17548"
+      },
+      {
+        "title": "常见下载",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/17549/list.htm"
+        ],
+        "target": "/hit/hitgs/17549"
       }
     ],
     "jwc": [
@@ -21256,6 +21355,19 @@
       }
     ]
   },
+  "jetbrains.com": {
+    "_name": "JetBrains",
+    "youtrack": [
+      {
+        "title": "YouTrack Issue Comments",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/issue/:issueId"
+        ],
+        "target": "/jetbrains/youtrack/comments/:issueId"
+      }
+    ]
+  },
   "jianshu.com": {
     "_name": "简书",
     "www": [
@@ -22118,6 +22230,20 @@
       }
     ]
   },
+  "kiro.dev": {
+    "_name": "Kiro",
+    ".": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/",
+          "/blog/"
+        ],
+        "target": "/kiro/blog"
+      }
+    ]
+  },
   "kisskiss.tv": {
     "_name": "KISS",
     "www": [
@@ -22190,6 +22316,19 @@
           "/:category"
         ],
         "target": "/koreaherald/:category"
+      }
+    ]
+  },
+  "kovidgoyal.net": {
+    "_name": "Kovid's software projects",
+    "sw": [
+      {
+        "title": "Changelog",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/kitty/changelog/"
+        ],
+        "target": "/kovidgoyal/kitty/changelog"
       }
     ]
   },
@@ -26780,6 +26919,38 @@
   },
   "nankai.edu.cn": {
     "_name": "南开大学",
+    "cc": [
+      {
+        "title": "计算机学院",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/",
+          "/:type/list.htm"
+        ],
+        "target": "/nankai/cc/:type?"
+      }
+    ],
+    "jwc": [
+      {
+        "title": "教务处通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/tzgg/list.htm"
+        ],
+        "target": "/nankai/jwc"
+      }
+    ],
+    "www": [
+      {
+        "title": "通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/",
+          "/157/list.htm"
+        ],
+        "target": "/nankai/notice"
+      }
+    ],
     "yzb": [
       {
         "title": "研究生招生网",
@@ -30764,7 +30935,8 @@
         "title": "User Bookmark",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
-          "/users/:id/bookmarks/artworks"
+          "/users/:id/bookmarks/artworks",
+          "/en/users/:id/bookmarks/artworks"
         ],
         "target": "/pixiv/user/bookmarks/:id"
       },
@@ -30789,7 +30961,9 @@
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
           "/users/:id/novels",
-          "/users/:id"
+          "/users/:id",
+          "/en/users/:id/novels",
+          "/en/users/:id"
         ],
         "target": "/pixiv/user/novels/:id"
       },
@@ -30798,7 +30972,9 @@
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
           "/users/:id/novels",
-          "/users/:id"
+          "/users/:id",
+          "/en/users/:id/novels",
+          "/en/users/:id"
         ],
         "target": "/pixiv/user/novels/:id/true"
       },
@@ -30806,7 +30982,8 @@
         "title": "User Activity",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
-          "/users/:id"
+          "/users/:id",
+          "/en/users/:id"
         ],
         "target": "/pixiv/user/:id"
       }
@@ -34117,6 +34294,19 @@
           "/"
         ],
         "target": "/sorrycc/"
+      }
+    ]
+  },
+  "sotwe.com": {
+    "_name": "X (Twitter)",
+    "www": [
+      {
+        "title": "User timeline - Sotwe",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/:id"
+        ],
+        "target": "/sotwe/user/:id"
       }
     ]
   },
@@ -37987,7 +38177,7 @@
     "_name": "中国石油大学（华东）",
     "jwc": [
       {
-        "title": "教务处通知公告",
+        "title": "教务处",
         "docs": "https://docs.rsshub.app/routes/university",
         "source": [
           "/",
