@@ -215,8 +215,8 @@ importers:
         specifier: 9.3.1
         version: 9.3.1
       rate-limiter-flexible:
-        specifier: 9.0.1
-        version: 9.0.1
+        specifier: 11.4.0
+        version: 11.4.0
       re2js:
         specifier: 1.2.0
         version: 1.2.0
@@ -5265,8 +5265,8 @@ packages:
   ramda@0.32.0:
     resolution: {integrity: sha512-GQWAHhxhxWBWA8oIBr1XahFVjQ9Fic6MK9ikijfd4TZHfE2+urfk+irVlR5VOn48uwMgM+loRRBJd6Yjsbc0zQ==}
 
-  rate-limiter-flexible@9.0.1:
-    resolution: {integrity: sha512-sO+QdoGPCxroi4VkO2FIVjfUGuexhRkBc9ROHqu5eVEEz+oPHzQqvCc25ajFfMUBosbNGb6qpNa8xmxH9YNZsg==}
+  rate-limiter-flexible@11.4.0:
+    resolution: {integrity: sha512-+RyuiXEG3odp5c9aZP83H8cld0L7swvz1FxlVzy/7N4zYo4i0GDy5tBhZlPFFOdXXwEilyBREKbVIKDq5bfjlw==}
 
   re2js@1.2.0:
     resolution: {integrity: sha512-IoeSIsrlUnaCBHCez7SAJvTB6Z6zb45aFgXs0q2owmnJZTXstbGhXqq4Ix+TV4jgtR5KcYa0NePNb5tF7V/SLg==}
@@ -6249,8 +6249,8 @@ packages:
       utf-8-validate:
         optional: true
 
-  ws@8.22.1:
-    resolution: {integrity: sha512-oyL6OPYme/CmiFvNuGzeoxCJ4nOrZE2O1FwM9MWM1AsGri6nLXB2pg+lNA8aLeXMSav0J6eIVS1j6vUPzUtK9g==}
+  ws@8.22.2:
+    resolution: {integrity: sha512-/rEZ2ejown2N5gxVTHUu9bVVC7ttu0/Tgzf5hbTOixR3Fs7mbbXgn2DbdbcKgJOmpQMtrIUWivtYuVMnp/W/yA==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -11610,7 +11610,7 @@ snapshots:
 
   ramda@0.32.0: {}
 
-  rate-limiter-flexible@9.0.1: {}
+  rate-limiter-flexible@11.4.0: {}
 
   re2js@1.2.0: {}
 
@@ -11645,7 +11645,7 @@ snapshots:
       debug: 4.4.3
       devtools-protocol: 0.0.1439962
       typed-query-selector: 2.12.0
-      ws: 8.22.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      ws: 8.22.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bare-buffer
       - bufferutil
@@ -12653,7 +12653,7 @@ snapshots:
       bufferutil: 4.0.9
       utf-8-validate: 5.0.10
 
-  ws@8.22.1(bufferutil@4.0.9)(utf-8-validate@5.0.10):
+  ws@8.22.2(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     optionalDependencies:
       bufferutil: 4.0.9
       utf-8-validate: 5.0.10
